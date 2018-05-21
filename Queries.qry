@@ -1,0 +1,9 @@
+/**
+ * New query file
+ */
+query Q1{
+  description: "Select all Citizens having more than 1000 Litre."
+  statement:
+      SELECT org.acme.Universe.Water
+          WHERE (value=="1000")
+}
